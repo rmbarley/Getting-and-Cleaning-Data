@@ -1,8 +1,6 @@
 ## You should create one R script called run_analysis.R that does the following. 
 
 ## 0. Download and read in all of the data 
-setwd("C:/Users/Ryan/Dropbox/Coursera/Data Science Specialization/2. Getting and Cleaning Data/Project")
-
 if(!file.exists("data.zip")) {
     url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
     download.file(url, destfile = "data.zip")
