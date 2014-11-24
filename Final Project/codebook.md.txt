@@ -1,0 +1,7 @@
+
+
+
+*run_analysis.r script performs the following steps to clean the raw data:
+
+1.  Reads in X_test.txt, y_test.txt, and subject_test.txt from the ./UCI HAR Dataset/test directory
+
